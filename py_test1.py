@@ -1,6 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
+# Python is very slow, takes 50x time of c_test1.c
+
 def is_prime(n):
     i = 2
     while i < n:

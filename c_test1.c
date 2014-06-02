@@ -2,6 +2,8 @@
 
 #define MAX 100000
 
+/* very simple example of finding prime numbers */
+
 int is_prime(int n) {
     int i;
     for (i = 2; i < n; i++) {
